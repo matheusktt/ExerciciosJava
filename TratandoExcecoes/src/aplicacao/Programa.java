@@ -13,8 +13,11 @@ public class Programa {
 
 		Scanner sc = new Scanner(System.in);
 		try {
+			System.out.print("Posições do vetor: ");
 			String[] vect = sc.nextLine().split(" ");
+			System.out.print("Ler posição: ");
 			int posicao = sc.nextInt();
+			System.out.print("valor: ");
 			System.out.println(vect[posicao]);
 		} 
 		catch (ArrayIndexOutOfBoundsException e) {
