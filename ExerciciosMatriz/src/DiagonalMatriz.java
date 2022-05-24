@@ -4,8 +4,6 @@
  * principal e a quantidade de valores negativos da matriz.
  */
 
-
-
 import java.util.Scanner;
 
 public class DiagonalMatriz {

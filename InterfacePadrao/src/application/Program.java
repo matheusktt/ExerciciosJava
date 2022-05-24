@@ -36,7 +36,6 @@ public class Program {
 		System.out.println("Interest Service Brazil");
 		System.out.print("Payment after " + months + " monts: R$");
 		System.out.println(String.format("%.2f", payment));
-
 		
 		sc.close();
 	}
