@@ -21,19 +21,19 @@ public class Program {
 		list.add(new Product("Tablet", 450.00));
 		
 		/*
-		 	Referência método estático
-			list.forEach(Product::staticPriceUpdate);
-			
-			Referência método não estático
-			list.forEach(Product::noStaticPriceUpdate);
-			
-			Lambda declarada
-			Consumer<Product> cons = p -> p.setPrice(p.getPrice() * 1.1);
-			list.forEach(cons);
-			
-			Lamda inline
-			list.forEach(p -> p.setPrice(p.getPrice() * 1.1));
-			list.forEach(System.out::println);
+		Referência método estático
+		list.forEach(Product::staticPriceUpdate);
+		
+		Referência método não estático
+		list.forEach(Product::noStaticPriceUpdate);
+		
+		Lambda declarada
+		Consumer<Product> cons = p -> p.setPrice(p.getPrice() * 1.1);
+		list.forEach(cons);
+		
+		Lamda inline
+		list.forEach(p -> p.setPrice(p.getPrice() * 1.1));
+		list.forEach(System.out::println);
 		 */
 		
 //		Implementa interface
